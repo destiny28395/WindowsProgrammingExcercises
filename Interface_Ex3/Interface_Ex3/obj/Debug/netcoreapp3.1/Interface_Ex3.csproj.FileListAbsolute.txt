@@ -1,0 +1,13 @@
+C:\Users\Destiny\Desktop\Interface_Ex3\Interface_Ex3\obj\Debug\netcoreapp3.1\Interface_Ex3.csprojAssemblyReference.cache
+C:\Users\Destiny\Desktop\Interface_Ex3\Interface_Ex3\obj\Debug\netcoreapp3.1\Interface_Ex3.AssemblyInfoInputs.cache
+C:\Users\Destiny\Desktop\Interface_Ex3\Interface_Ex3\obj\Debug\netcoreapp3.1\Interface_Ex3.AssemblyInfo.cs
+C:\Users\Destiny\Desktop\Interface_Ex3\Interface_Ex3\obj\Debug\netcoreapp3.1\Interface_Ex3.csproj.CoreCompileInputs.cache
+C:\Users\Destiny\Desktop\Interface_Ex3\Interface_Ex3\bin\Debug\netcoreapp3.1\Interface_Ex3.exe
+C:\Users\Destiny\Desktop\Interface_Ex3\Interface_Ex3\bin\Debug\netcoreapp3.1\Interface_Ex3.deps.json
+C:\Users\Destiny\Desktop\Interface_Ex3\Interface_Ex3\bin\Debug\netcoreapp3.1\Interface_Ex3.runtimeconfig.json
+C:\Users\Destiny\Desktop\Interface_Ex3\Interface_Ex3\bin\Debug\netcoreapp3.1\Interface_Ex3.runtimeconfig.dev.json
+C:\Users\Destiny\Desktop\Interface_Ex3\Interface_Ex3\bin\Debug\netcoreapp3.1\Interface_Ex3.dll
+C:\Users\Destiny\Desktop\Interface_Ex3\Interface_Ex3\bin\Debug\netcoreapp3.1\Interface_Ex3.pdb
+C:\Users\Destiny\Desktop\Interface_Ex3\Interface_Ex3\obj\Debug\netcoreapp3.1\Interface_Ex3.dll
+C:\Users\Destiny\Desktop\Interface_Ex3\Interface_Ex3\obj\Debug\netcoreapp3.1\Interface_Ex3.pdb
+C:\Users\Destiny\Desktop\Interface_Ex3\Interface_Ex3\obj\Debug\netcoreapp3.1\Interface_Ex3.genruntimeconfig.cache
