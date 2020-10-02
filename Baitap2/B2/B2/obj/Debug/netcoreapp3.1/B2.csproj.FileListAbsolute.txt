@@ -1,0 +1,13 @@
+C:\Users\Destiny\Desktop\B2\B2\bin\Debug\netcoreapp3.1\B2.exe
+C:\Users\Destiny\Desktop\B2\B2\bin\Debug\netcoreapp3.1\B2.deps.json
+C:\Users\Destiny\Desktop\B2\B2\bin\Debug\netcoreapp3.1\B2.runtimeconfig.json
+C:\Users\Destiny\Desktop\B2\B2\bin\Debug\netcoreapp3.1\B2.runtimeconfig.dev.json
+C:\Users\Destiny\Desktop\B2\B2\bin\Debug\netcoreapp3.1\B2.dll
+C:\Users\Destiny\Desktop\B2\B2\bin\Debug\netcoreapp3.1\B2.pdb
+C:\Users\Destiny\Desktop\B2\B2\obj\Debug\netcoreapp3.1\B2.csprojAssemblyReference.cache
+C:\Users\Destiny\Desktop\B2\B2\obj\Debug\netcoreapp3.1\B2.AssemblyInfoInputs.cache
+C:\Users\Destiny\Desktop\B2\B2\obj\Debug\netcoreapp3.1\B2.AssemblyInfo.cs
+C:\Users\Destiny\Desktop\B2\B2\obj\Debug\netcoreapp3.1\B2.csproj.CoreCompileInputs.cache
+C:\Users\Destiny\Desktop\B2\B2\obj\Debug\netcoreapp3.1\B2.dll
+C:\Users\Destiny\Desktop\B2\B2\obj\Debug\netcoreapp3.1\B2.pdb
+C:\Users\Destiny\Desktop\B2\B2\obj\Debug\netcoreapp3.1\B2.genruntimeconfig.cache

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Destiny\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Destiny\\.nuget\\packages"
+    ]
+  }
+}

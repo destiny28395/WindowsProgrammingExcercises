@@ -1,0 +1,13 @@
+C:\Users\Destiny\Desktop\B2TInh\B2TInh\obj\Debug\netcoreapp3.1\B2TInh.csprojAssemblyReference.cache
+C:\Users\Destiny\Desktop\B2TInh\B2TInh\obj\Debug\netcoreapp3.1\B2TInh.AssemblyInfoInputs.cache
+C:\Users\Destiny\Desktop\B2TInh\B2TInh\obj\Debug\netcoreapp3.1\B2TInh.AssemblyInfo.cs
+C:\Users\Destiny\Desktop\B2TInh\B2TInh\obj\Debug\netcoreapp3.1\B2TInh.csproj.CoreCompileInputs.cache
+C:\Users\Destiny\Desktop\B2TInh\B2TInh\bin\Debug\netcoreapp3.1\B2TInh.exe
+C:\Users\Destiny\Desktop\B2TInh\B2TInh\bin\Debug\netcoreapp3.1\B2TInh.deps.json
+C:\Users\Destiny\Desktop\B2TInh\B2TInh\bin\Debug\netcoreapp3.1\B2TInh.runtimeconfig.json
+C:\Users\Destiny\Desktop\B2TInh\B2TInh\bin\Debug\netcoreapp3.1\B2TInh.runtimeconfig.dev.json
+C:\Users\Destiny\Desktop\B2TInh\B2TInh\bin\Debug\netcoreapp3.1\B2TInh.dll
+C:\Users\Destiny\Desktop\B2TInh\B2TInh\bin\Debug\netcoreapp3.1\B2TInh.pdb
+C:\Users\Destiny\Desktop\B2TInh\B2TInh\obj\Debug\netcoreapp3.1\B2TInh.dll
+C:\Users\Destiny\Desktop\B2TInh\B2TInh\obj\Debug\netcoreapp3.1\B2TInh.pdb
+C:\Users\Destiny\Desktop\B2TInh\B2TInh\obj\Debug\netcoreapp3.1\B2TInh.genruntimeconfig.cache
