@@ -1,0 +1,13 @@
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadDrive\05_ExReadDrive\obj\Debug\netcoreapp3.1\05_ExReadDrive.csprojAssemblyReference.cache
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadDrive\05_ExReadDrive\obj\Debug\netcoreapp3.1\05_ExReadDrive.AssemblyInfoInputs.cache
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadDrive\05_ExReadDrive\obj\Debug\netcoreapp3.1\05_ExReadDrive.AssemblyInfo.cs
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadDrive\05_ExReadDrive\obj\Debug\netcoreapp3.1\05_ExReadDrive.csproj.CoreCompileInputs.cache
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadDrive\05_ExReadDrive\bin\Debug\netcoreapp3.1\05_ExReadDrive.exe
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadDrive\05_ExReadDrive\bin\Debug\netcoreapp3.1\05_ExReadDrive.deps.json
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadDrive\05_ExReadDrive\bin\Debug\netcoreapp3.1\05_ExReadDrive.runtimeconfig.json
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadDrive\05_ExReadDrive\bin\Debug\netcoreapp3.1\05_ExReadDrive.runtimeconfig.dev.json
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadDrive\05_ExReadDrive\bin\Debug\netcoreapp3.1\05_ExReadDrive.dll
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadDrive\05_ExReadDrive\bin\Debug\netcoreapp3.1\05_ExReadDrive.pdb
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadDrive\05_ExReadDrive\obj\Debug\netcoreapp3.1\05_ExReadDrive.dll
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadDrive\05_ExReadDrive\obj\Debug\netcoreapp3.1\05_ExReadDrive.pdb
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadDrive\05_ExReadDrive\obj\Debug\netcoreapp3.1\05_ExReadDrive.genruntimeconfig.cache

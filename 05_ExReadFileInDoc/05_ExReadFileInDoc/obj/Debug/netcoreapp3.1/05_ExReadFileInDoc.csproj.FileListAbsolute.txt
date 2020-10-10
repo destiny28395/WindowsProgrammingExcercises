@@ -1,0 +1,12 @@
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadFileInDoc\05_ExReadFileInDoc\bin\Debug\netcoreapp3.1\05_ExReadFileInDoc.exe
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadFileInDoc\05_ExReadFileInDoc\bin\Debug\netcoreapp3.1\05_ExReadFileInDoc.deps.json
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadFileInDoc\05_ExReadFileInDoc\bin\Debug\netcoreapp3.1\05_ExReadFileInDoc.runtimeconfig.json
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadFileInDoc\05_ExReadFileInDoc\bin\Debug\netcoreapp3.1\05_ExReadFileInDoc.runtimeconfig.dev.json
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadFileInDoc\05_ExReadFileInDoc\bin\Debug\netcoreapp3.1\05_ExReadFileInDoc.dll
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadFileInDoc\05_ExReadFileInDoc\bin\Debug\netcoreapp3.1\05_ExReadFileInDoc.pdb
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadFileInDoc\05_ExReadFileInDoc\obj\Debug\netcoreapp3.1\05_ExReadFileInDoc.AssemblyInfoInputs.cache
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadFileInDoc\05_ExReadFileInDoc\obj\Debug\netcoreapp3.1\05_ExReadFileInDoc.AssemblyInfo.cs
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadFileInDoc\05_ExReadFileInDoc\obj\Debug\netcoreapp3.1\05_ExReadFileInDoc.csproj.CoreCompileInputs.cache
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadFileInDoc\05_ExReadFileInDoc\obj\Debug\netcoreapp3.1\05_ExReadFileInDoc.dll
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadFileInDoc\05_ExReadFileInDoc\obj\Debug\netcoreapp3.1\05_ExReadFileInDoc.pdb
+C:\Users\Destiny\OneDrive\Desktop\Study\05_ExReadFileInDoc\05_ExReadFileInDoc\obj\Debug\netcoreapp3.1\05_ExReadFileInDoc.genruntimeconfig.cache
