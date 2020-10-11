@@ -1,0 +1,13 @@
+C:\Users\Destiny\OneDrive\Desktop\Study\06_Ex\06_Ex\bin\Debug\netcoreapp3.1\06_Ex.exe
+C:\Users\Destiny\OneDrive\Desktop\Study\06_Ex\06_Ex\bin\Debug\netcoreapp3.1\06_Ex.deps.json
+C:\Users\Destiny\OneDrive\Desktop\Study\06_Ex\06_Ex\bin\Debug\netcoreapp3.1\06_Ex.runtimeconfig.json
+C:\Users\Destiny\OneDrive\Desktop\Study\06_Ex\06_Ex\bin\Debug\netcoreapp3.1\06_Ex.runtimeconfig.dev.json
+C:\Users\Destiny\OneDrive\Desktop\Study\06_Ex\06_Ex\bin\Debug\netcoreapp3.1\06_Ex.dll
+C:\Users\Destiny\OneDrive\Desktop\Study\06_Ex\06_Ex\bin\Debug\netcoreapp3.1\06_Ex.pdb
+C:\Users\Destiny\OneDrive\Desktop\Study\06_Ex\06_Ex\obj\Debug\netcoreapp3.1\06_Ex.csprojAssemblyReference.cache
+C:\Users\Destiny\OneDrive\Desktop\Study\06_Ex\06_Ex\obj\Debug\netcoreapp3.1\06_Ex.AssemblyInfoInputs.cache
+C:\Users\Destiny\OneDrive\Desktop\Study\06_Ex\06_Ex\obj\Debug\netcoreapp3.1\06_Ex.AssemblyInfo.cs
+C:\Users\Destiny\OneDrive\Desktop\Study\06_Ex\06_Ex\obj\Debug\netcoreapp3.1\06_Ex.csproj.CoreCompileInputs.cache
+C:\Users\Destiny\OneDrive\Desktop\Study\06_Ex\06_Ex\obj\Debug\netcoreapp3.1\06_Ex.dll
+C:\Users\Destiny\OneDrive\Desktop\Study\06_Ex\06_Ex\obj\Debug\netcoreapp3.1\06_Ex.pdb
+C:\Users\Destiny\OneDrive\Desktop\Study\06_Ex\06_Ex\obj\Debug\netcoreapp3.1\06_Ex.genruntimeconfig.cache
