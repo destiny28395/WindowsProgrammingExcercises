@@ -1,0 +1,13 @@
+C:\Users\Administrator\source\repos\07_Exercise\07_Exercise\bin\Debug\netcoreapp3.1\07_Exercise.exe
+C:\Users\Administrator\source\repos\07_Exercise\07_Exercise\bin\Debug\netcoreapp3.1\07_Exercise.deps.json
+C:\Users\Administrator\source\repos\07_Exercise\07_Exercise\bin\Debug\netcoreapp3.1\07_Exercise.runtimeconfig.json
+C:\Users\Administrator\source\repos\07_Exercise\07_Exercise\bin\Debug\netcoreapp3.1\07_Exercise.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\07_Exercise\07_Exercise\bin\Debug\netcoreapp3.1\07_Exercise.dll
+C:\Users\Administrator\source\repos\07_Exercise\07_Exercise\bin\Debug\netcoreapp3.1\07_Exercise.pdb
+C:\Users\Administrator\source\repos\07_Exercise\07_Exercise\obj\Debug\netcoreapp3.1\07_Exercise.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\07_Exercise\07_Exercise\obj\Debug\netcoreapp3.1\07_Exercise.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\07_Exercise\07_Exercise\obj\Debug\netcoreapp3.1\07_Exercise.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\07_Exercise\07_Exercise\obj\Debug\netcoreapp3.1\07_Exercise.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\07_Exercise\07_Exercise\obj\Debug\netcoreapp3.1\07_Exercise.dll
+C:\Users\Administrator\source\repos\07_Exercise\07_Exercise\obj\Debug\netcoreapp3.1\07_Exercise.pdb
+C:\Users\Administrator\source\repos\07_Exercise\07_Exercise\obj\Debug\netcoreapp3.1\07_Exercise.genruntimeconfig.cache
