@@ -1,0 +1,89 @@
+﻿<Window x:Class="ex1_Layout.NewStudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ex1_Layout"
+        xmlns:vm="clr-namespace:ex1_Layout"
+        mc:Ignorable="d"
+        Title="NewStudent" Height="500" Width="540" AllowsTransparency="True" WindowStyle="None" 
+        WindowStartupLocation="CenterScreen" ResizeMode="CanResizeWithGrip">
+    <Window.DataContext>
+        <vm:StudentViewModel></vm:StudentViewModel>
+    </Window.DataContext>
+    <Grid>
+        <Grid ShowGridLines="True" Name="grdMagin" Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30" />
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" ShowGridLines="True" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="90"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Student Information Management - Students List" FontSize="18"></TextBlock>
+                <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right">
+                    <Image Source="/images/winMinimize.png" Width="30" Height="30"/>
+                    <Image Source="/images/winMaximize.png" Width="30" Height="30"/>
+                    <Image Source="/images/winClose.png" Width="30" Height="30"/>
+                </StackPanel>
+            </Grid>
+            <TextBlock Text="New Student" Grid.Row="1" FontSize="24"></TextBlock>
+            <Border BorderBrush="Red" Grid.Row="1" Margin="0 5 0 0" BorderThickness="0 0 0 1"></Border>
+            <Grid Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" FontSize="16" VerticalAlignment="Center" Name="lblSID">Student ID*</Label>
+                <TextBox Grid.Row="0" Grid.Column="1" Margin="5" FontSize="16" x:Name="txtSID" Text="{Binding Path=lblSID, ValidatesOnDataErrors=True}"></TextBox>
+                <Label Grid.Row="1" FontSize="16" VerticalAlignment="Center" Name="lblFirst_Name">First Name*</Label>
+                <TextBox Grid.Row="1" Grid.Column="1" Margin="5" FontSize="16" x:Name="txtFirst_Name" Text="{Binding Path=lblFirst_Name, ValidatesOnDataErrors=True}"></TextBox>
+                <Label Grid.Row="2" FontSize="16" VerticalAlignment="Center" Name="lblLast_Name">Last Name*</Label>
+                <TextBox Grid.Row="2" Grid.Column="1" Margin="5" FontSize="16" x:Name="txtLast_Name" Text="{Binding Path=lblLast_Name, ValidatesOnDataErrors=True}"></TextBox>
+                <Label Grid.Row="3" FontSize="16" VerticalAlignment="Center" Name="lblBirthdate">Birthdate*</Label>
+                <DatePicker Grid.Row="3" Grid.Column="2" Margin="5" SelectedDate="{Binding Path=lblBirthdate,ValidatesOnDataErrors=True, Mode=TwoWay}"></DatePicker>
+                <Label Grid.Row="4" FontSize="16" VerticalAlignment="Center">Gender*</Label>
+                <Grid Grid.Row="4" Grid.Column="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <RadioButton Grid.Column="0" Margin="5" GroupName="CharacterGender" IsChecked="True">Male</RadioButton>
+                    <RadioButton Grid.Column="1" Margin="5" GroupName="CharacterGender">FeMale</RadioButton>
+                </Grid>
+                <Label Grid.Row="5" FontSize="16" VerticalAlignment="Center" Name="lblAdd">Address*</Label>
+                <TextBox Grid.Row="5" Grid.Column="1" Margin="5" FontSize="16" x:Name="txtAdd" Text="{Binding Path=lblAdd, UpdateSourceTrigger=PropertyChanged}"></TextBox >
+                <Label Grid.Row="6" FontSize="16" VerticalAlignment="Center" Name="lblEmail">Email*</Label>
+                <TextBox Grid.Row="6" Grid.Column="1" Margin="5" FontSize="16" x:Name="txtEmail" Text="{Binding Path=lblEmail, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <Label Grid.Row="7" FontSize="16" VerticalAlignment="Center">Class*</Label>
+                <ComboBox Grid.Row="7" Grid.Column="1" Margin="5" ItemsSource="{Binding Path=ListClass}" SelectedItem="{Binding Path=SelectClass}">
+                </ComboBox>
+            </Grid>
+            <Grid Grid.Row="4" VerticalAlignment="Bottom" Height="120">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="120" />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Margin="5" FontSize="16" Content="View Transript" Width="150" Height="50" HorizontalAlignment="Left" Foreground="Gray"></Button>
+                <Button Grid.Column="1" Margin="5" FontSize="16" Content="Save" Width="100" Height="50" HorizontalAlignment="Right" Foreground="White" Background="Blue" Command="{Binding SaveCommand}"></Button>
+                <Button Grid.Column="2" Margin="5" FontSize="16" Content="Cancel" Width="100" Height="50" HorizontalAlignment="Right" Click="Button_Click"></Button>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

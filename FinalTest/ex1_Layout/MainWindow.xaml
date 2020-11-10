@@ -1,0 +1,63 @@
+﻿<Window x:Class="ex1_Layout.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ex1_Layout"
+         xmlns:vm="clr-namespace:ex1_Layout"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="363.565" Width="533.284" AllowsTransparency="True" WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown" KeyDown="Window_KeyDown"
+        WindowStartupLocation="CenterScreen" ResizeMode="CanResizeWithGrip">
+    <Window.DataContext>
+        <vm:WindowModel></vm:WindowModel>
+    </Window.DataContext>
+    <Grid ShowGridLines="True" Name="grdMagin">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" ShowGridLines="True" >
+            <Grid.ColumnDefinitions>
+               <ColumnDefinition />
+               <ColumnDefinition Width="90"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Student Information Management - Students List" FontSize="20" Margin="10 0 0 0"></TextBlock>
+            <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right">
+                <Image Source="/images/winMinimize.png" Width="30" Height="30" MouseLeftButtonDown="Image_MouseLeftButtonDown_1" />
+                <Image Source="/images/winMaximize.png" Width="30" Height="30" MouseLeftButtonDown="Image_MouseLeftButtonDown_2"/>
+                <Image Source="/images/winClose.png" Width="30" Height="30" MouseLeftButtonDown="Image_MouseLeftButtonDown_3"/>
+            </StackPanel>
+        </Grid>
+        <Menu Grid.Row="1" Margin="10">
+            <MenuItem Header="Student" FontSize="16">
+                <MenuItem Header="New Students" Command="{Binding Path=NewStudentCommand}"></MenuItem>
+                <MenuItem Header="Exit" Click="MenuItem_Click"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <TextBlock Margin="10" Grid.Row="2" Text="Students List" FontSize="20"></TextBlock>
+        <Border Grid.Row="2" BorderBrush="Red" BorderThickness="0 0 0 1"></Border>
+        <Grid Grid.Row="3" ShowGridLines="True">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+            <TextBox Grid.Column="0" Margin="10" Text="{Binding Path=SearchText}"></TextBox>
+            <ComboBox Grid.Column="1" Margin="10" ItemsSource="{Binding Path=ClassList}" SelectedItem="{Binding Path=SelectClass}">
+            </ComboBox>
+            <Button Grid.Column="2" Content="Search" Margin="5" Command="{Binding Path=SearchCommand}"></Button>
+            <Button Grid.Column="3" Content="Reset" Margin="5" Command="{Binding Path=ResetCommand}"></Button>
+        </Grid>
+        <Border Grid.Row="4" Margin="5">
+            <DataGrid ItemsSource="{Binding Path=StudentList}"></DataGrid>
+        </Border>
+        <StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+            <Button Content="Delete" Width="100" Height="50" Background="Red" Margin="10" Foreground="White"></Button>
+        </StackPanel>
+    </Grid>
+</Window>
