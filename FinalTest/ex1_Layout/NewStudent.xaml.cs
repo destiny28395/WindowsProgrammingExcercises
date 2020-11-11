@@ -17,9 +17,12 @@ namespace ex1_Layout
     /// <summary>
     /// Interaction logic for NewStudent.xaml
     /// </summary>
-
     public partial class NewStudent : Window
     {
+        public NewStudent()
+        {
+            InitializeComponent();
+        }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
@@ -67,10 +70,5 @@ namespace ex1_Layout
                 Application.Current.Shutdown();
             }
         }
-        public NewStudent()
-        {
-            InitializeComponent();
-        }
-
     }
 }

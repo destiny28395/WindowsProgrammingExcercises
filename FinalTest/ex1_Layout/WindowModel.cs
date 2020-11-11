@@ -24,7 +24,7 @@ namespace ex1_Layout
 
             SearchCommand = new RelayCommand(Search);
             ResetCommand = new RelayCommand(o=>Reset());
-            NewStudentCommand = new RelayCommand(New);
+            NewCommand = new RelayCommand(New);
 
             StudentList = new ObservableCollection<Student>(StudentService.SearchStudent(new StudentSearchCriteria()));
             ClassList = new ObservableCollection<string>(StudentService.GetAllClasses());
@@ -35,7 +35,7 @@ namespace ex1_Layout
         public ObservableCollection<string> ClassList { get; set; }
         public ICommand SearchCommand { get; set; }
         public ICommand ResetCommand { get; set; }
-        public ICommand NewStudentCommand { get; set; }
+        public ICommand NewCommand { get; set; }
         public ICommand ExitCommand { get; set; }
   
 

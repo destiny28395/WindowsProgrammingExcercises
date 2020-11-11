@@ -7,7 +7,7 @@
         xmlns:vm="clr-namespace:ex1_Layout"
         mc:Ignorable="d"
         Title="NewStudent" Height="500" Width="540" AllowsTransparency="True" WindowStyle="None" 
-        WindowStartupLocation="CenterScreen" ResizeMode="CanResizeWithGrip">
+        WindowStartupLocation="CenterScreen" ResizeMode="CanResizeWithGrip" MouseLeftButtonDown="Window_MouseLeftButtonDown" KeyDown="Window_KeyDown">
     <Window.DataContext>
         <vm:StudentViewModel></vm:StudentViewModel>
     </Window.DataContext>
@@ -27,9 +27,9 @@
                 </Grid.ColumnDefinitions>
                 <TextBlock Text="Student Information Management - Students List" FontSize="18"></TextBlock>
                 <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right">
-                    <Image Source="/images/winMinimize.png" Width="30" Height="30"/>
-                    <Image Source="/images/winMaximize.png" Width="30" Height="30"/>
-                    <Image Source="/images/winClose.png" Width="30" Height="30"/>
+                    <Image Source="/images/winMinimize.png" Width="30" Height="30" MouseLeftButtonDown="Image_MouseLeftButtonDown_1"/>
+                    <Image Source="/images/winMaximize.png" Width="30" Height="30" MouseLeftButtonDown="Image_MouseLeftButtonDown_2"/>
+                    <Image Source="/images/winClose.png" Width="30" Height="30" MouseLeftButtonDown="Image_MouseLeftButtonDown_3"/>
                 </StackPanel>
             </Grid>
             <TextBlock Text="New Student" Grid.Row="1" FontSize="24"></TextBlock>

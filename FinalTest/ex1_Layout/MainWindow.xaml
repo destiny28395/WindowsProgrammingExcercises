@@ -34,7 +34,7 @@
         </Grid>
         <Menu Grid.Row="1" Margin="10">
             <MenuItem Header="Student" FontSize="16">
-                <MenuItem Header="New Students" Command="{Binding Path=NewStudentCommand}"></MenuItem>
+                <MenuItem Header="New Students" Command="{Binding Path=NewCommand}"></MenuItem>
                 <MenuItem Header="Exit" Click="MenuItem_Click"></MenuItem>
             </MenuItem>
         </Menu>
