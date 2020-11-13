@@ -57,7 +57,7 @@
             <DataGrid ItemsSource="{Binding Path=StudentList}"></DataGrid>
         </Border>
         <StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom">
-            <Button Content="Delete" Width="100" Height="50" Background="Red" Margin="10" Foreground="White"></Button>
+            <Button Content="Delete" Width="100" Height="50" Background="Red" Margin="10" Foreground="White" Command="{Binding Path=DelCommand}"></Button>
         </StackPanel>
     </Grid>
 </Window>

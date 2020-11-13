@@ -25,6 +25,7 @@ namespace ex1_Layout
             SearchCommand = new RelayCommand(Search);
             ResetCommand = new RelayCommand(o=>Reset());
             NewCommand = new RelayCommand(New);
+            DelCommand = new RelayCommand(Del);
 
             StudentList = new ObservableCollection<Student>(StudentService.SearchStudent(new StudentSearchCriteria()));
             ClassList = new ObservableCollection<string>(StudentService.GetAllClasses());
@@ -36,7 +37,7 @@ namespace ex1_Layout
         public ICommand SearchCommand { get; set; }
         public ICommand ResetCommand { get; set; }
         public ICommand NewCommand { get; set; }
-        public ICommand ExitCommand { get; set; }
+        public ICommand DelCommand { get; set; }
   
 
         public List<string> ListClass
@@ -96,6 +97,11 @@ namespace ex1_Layout
         {
             Window open = new NewStudent();
             open.ShowDialog();
+        }
+        public void Del(object o)
+        {
+            StudentList.Clear();
+            StudentService.SearchStudent(new StudentSearchCriteria()).ForEach(s => StudentList.Remove(s));
         }
     }
 }

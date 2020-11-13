@@ -1,4 +1,6 @@
-﻿using ex1_Layout.Class;
+﻿using Common.Model;
+using Common.Service;
+using ex1_Layout.Class;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -7,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using wpf_practice.Service;
 
 namespace ex1_Layout
 {
@@ -24,8 +27,12 @@ namespace ex1_Layout
 
         public StudentViewModel()
         {
+            StudentService = new StudentService();
+
             SaveCommand = new RelayCommand(o => Save(), o => !string.IsNullOrEmpty(_SID) && !string.IsNullOrEmpty(_First_Name) && !string.IsNullOrEmpty(_Last_Name));
         }
+        public IStudentService StudentService { get; set; }
+        public ObservableCollection<Student> StudentList { get; set; }
         public string lblSID
         {
             get
@@ -179,7 +186,7 @@ namespace ex1_Layout
 
         public void Save()
         {
-
+            //StudentService.Add(Student s);
         }
 
         #endregion
