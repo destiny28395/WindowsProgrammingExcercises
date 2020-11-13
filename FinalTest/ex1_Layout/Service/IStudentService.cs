@@ -18,6 +18,5 @@ namespace Common.Service
         Student Update(Student student);
 
         void Remove(int studentId);
-        
     }
 }

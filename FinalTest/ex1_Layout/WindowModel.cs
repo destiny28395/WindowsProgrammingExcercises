@@ -17,6 +17,7 @@ namespace ex1_Layout
         private List<string> _ListClass = new List<string> { "18DTHQA1", "18DTHQA2", "18DTHQA3" };
         private string _selectClass;
         private string _searchText;
+        private int studentId;
 
         public WindowModel()
         {
@@ -29,6 +30,8 @@ namespace ex1_Layout
 
             StudentList = new ObservableCollection<Student>(StudentService.SearchStudent(new StudentSearchCriteria()));
             ClassList = new ObservableCollection<string>(StudentService.GetAllClasses());
+
+
             
         }
         public IStudentService StudentService { get; set; }
@@ -98,10 +101,10 @@ namespace ex1_Layout
             Window open = new NewStudent();
             open.ShowDialog();
         }
+
         public void Del(object o)
         {
-            StudentList.Clear();
-            StudentService.SearchStudent(new StudentSearchCriteria()).ForEach(s => StudentList.Remove(s));
+            StudentList.RemoveAt(studentId);
         }
     }
 }
