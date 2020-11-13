@@ -28,11 +28,15 @@ namespace ex1_Layout
         public StudentViewModel()
         {
             StudentService = new StudentService();
-
             SaveCommand = new RelayCommand(o => Save(), o => !string.IsNullOrEmpty(_SID) && !string.IsNullOrEmpty(_First_Name) && !string.IsNullOrEmpty(_Last_Name));
         }
         public IStudentService StudentService { get; set; }
+        
+        public ICommand SaveCommand { get; set; }
+        
         public ObservableCollection<Student> StudentList { get; set; }
+
+        public event PropertyChangedEventHandler PropertyChanged;
         public string lblSID
         {
             get
@@ -105,9 +109,6 @@ namespace ex1_Layout
                 OnPropertyChanged(nameof(lblBirthdate));
             }
         }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
         private void OnPropertyChanged(string propertyName)
         {
             if (PropertyChanged != null)
@@ -155,9 +156,6 @@ namespace ex1_Layout
         #endregion
 
         #region Command
-
-        public ICommand SaveCommand { get; set; }
-
         public string SelectClass
         {
             get
