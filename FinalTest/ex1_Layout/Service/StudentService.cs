@@ -28,7 +28,9 @@ namespace wpf_practice.Service
 
         public Student Add(Student student)
         {
-            throw new NotImplementedException();
+            _data.Add(student);
+
+            return student;
         }
 
         public List<string> GetAllClasses()
@@ -38,7 +40,9 @@ namespace wpf_practice.Service
 
         public void Remove(int studentId)
         {
-            throw new NotImplementedException();
+            var removedStudent = _data.FirstOrDefault(s => s.Id == studentId);
+
+            _data.Remove(removedStudent);
         }
 
         public List<Student> SearchStudent(StudentSearchCriteria criteria)
@@ -55,7 +59,9 @@ namespace wpf_practice.Service
 
         public Student Update(Student student)
         {
-            throw new NotImplementedException();
+            var updateStudent = _data.FirstOrDefault(s => s.Id == student.Id);
+            updateStudent.FirstName = student.FirstName;
+            return updateStudent;
         }
     }
 }
