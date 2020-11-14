@@ -104,7 +104,7 @@ namespace ex1_Layout
 
         public void Del(object o)
         {
-            StudentList.RemoveAt(studentId);
+            StudentService.RemoveStu(SearchText);
         }
     }
 }

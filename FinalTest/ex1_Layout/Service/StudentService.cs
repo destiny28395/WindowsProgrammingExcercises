@@ -38,9 +38,9 @@ namespace wpf_practice.Service
             return _data.Select(s => s.Class).Distinct().ToList();
         }
 
-        public void Remove(int studentId)
+        public void RemoveStu(string studentId)
         {
-            var removedStudent = _data.FirstOrDefault(s => s.Id == studentId);
+            var removedStudent = _data.FirstOrDefault(s => s.StudentId == studentId);
 
             _data.Remove(removedStudent);
         }
@@ -49,8 +49,8 @@ namespace wpf_practice.Service
         {
             // Implement filter criteria
             return _data.Where(s => (string.IsNullOrEmpty(criteria.SearchText) ||
-                                    s.FirstName.Contains(criteria.SearchText) ||
-                                    s.LastName.Contains(criteria.SearchText) ||
+                                    s.FirstName.ToUpper().Contains(criteria.SearchText.ToUpper()) ||
+                                    s.LastName.ToUpper().Contains(criteria.SearchText.ToUpper()) ||
                                     s.StudentId.ToString().Contains(criteria.SearchText))
                                     && (string.IsNullOrEmpty(criteria.ClassName)
                                     || s.Class.Contains(criteria.ClassName))).ToList();

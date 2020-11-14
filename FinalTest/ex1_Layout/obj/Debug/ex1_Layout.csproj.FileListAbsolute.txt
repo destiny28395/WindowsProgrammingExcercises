@@ -105,7 +105,6 @@ C:\Users\Destiny\Desktop\Study\FinalTest\ex1_Layout\obj\Debug\ex1_Layout.pdb
 C:\Users\Destiny\Desktop\FinalTest\ex1_Layout\bin\Debug\ex1_Layout.exe.config
 C:\Users\Destiny\Desktop\FinalTest\ex1_Layout\bin\Debug\ex1_Layout.exe
 C:\Users\Destiny\Desktop\FinalTest\ex1_Layout\bin\Debug\ex1_Layout.pdb
-C:\Users\Destiny\Desktop\FinalTest\ex1_Layout\obj\Debug\ex1_Layout.csprojAssemblyReference.cache
 C:\Users\Destiny\Desktop\FinalTest\ex1_Layout\obj\Debug\MainWindow.g.cs
 C:\Users\Destiny\Desktop\FinalTest\ex1_Layout\obj\Debug\NewStudent.g.cs
 C:\Users\Destiny\Desktop\FinalTest\ex1_Layout\obj\Debug\App.g.cs

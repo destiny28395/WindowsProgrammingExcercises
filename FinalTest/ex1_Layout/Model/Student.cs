@@ -2,11 +2,11 @@
 
 namespace Common.Model {
     public class Student {
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         public string Class { get; set; }
 
-        public int StudentId { get; set; }
+        public string StudentId { get; set; }
 
         public string FirstName { get; set; }
 
